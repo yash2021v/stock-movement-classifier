@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "streamlit-app",
+      "runtimeExecutable": "/opt/anaconda3/bin/streamlit",
+      "runtimeArgs": ["run", "app/app.py", "--server.headless", "true"],
+      "port": 8501
+    }
+  ]
+}
